@@ -10,9 +10,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Recipe page</title>
+
 </head>
 
 <body>
+    
     <main>
         <picture>
             <img src="assets/images/image-omelette.jpeg" alt="image of an omelette" width="100%">
@@ -59,11 +61,48 @@
             <li><span>Enjoy: </span>Serve hot, with additional salt and pepper if needed.</li>
         </ol>
 
-        <h2>Nutrition</h2>
+        <h2 class="linha-horizontal">Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
 
-        <table>
-            <caption><!--ADICIONA TITULO NA TABELA--></caption>
+        <div class="table">
+            <div class="table-linhas table-linhas-solid">
+                <p class="colunas-linha">Calories</p>
+                <p class="dados linha-um">277kcal</p>
+            </div>
+            <div class="table-linhas table-linhas-solid">
+                <p class="colunas-linha">Carbs</p>
+                <p class="dados linha-dois">0g</p>
+            </div>
+            <div class="table-linhas table-linhas-solid">
+                <p class="colunas">Protein</p>
+                <p class="dados linha-tres">20g</p>
+            </div>
+            <div class="table-linhas">
+                <p class="colunas">Fat</p>
+                <p class="dados linha-quatro">22g</p>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="table">
+            <div class="table-colunas">
+                <p class="colunas-linha">Calories</p>
+                <p class="colunas-linha">Carbs</p>
+                <p class="colunas">Protein</p>
+                <p class="colunas">Fat</p>
+            </div>
+            <div class="table-dados">
+                <p class="dados">277kcal</p>
+                <p class="dados">0g</p>
+                <p class="dados">20g</p>
+                <p class="dados">22g</p>
+            </div>
+        </div> -->
+
+
+        <!-- <table>
+            <caption>ADICIONA TITULO NA TABELA</caption>
             <thead>
                 <tr>
                     <th>Calories</th>
@@ -73,11 +112,13 @@
                 </tr>
             </thead>
             <tbody>
-                <td>277kcal</td>
-                <td>0g</td>
-                <td>20g</td>
-                <td>22g</td>
+                <tr>
+                    <td>277kcal</td>
+                    <td>0g</td>
+                    <td>20g</td>
+                    <td>22g</td>
+                </tr>
             </tbody>
-        </table>
+        </table> -->
     </main>
 </body>
